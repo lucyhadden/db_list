@@ -1,2 +1,2 @@
-# db_list
- doubly linked list
+# doubly_linked_circular_list
+ doubly linked circular List
