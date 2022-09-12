@@ -41,7 +41,7 @@ public class BusRoute<T extends BusStop> extends CircularDoubleLinkedList<T>{
 
    /**
    * Return a pointer to the DLLNode containing the BusStop with the given id - or null if not found.
-   * @param id The id of the BusStop to locate
+   * @param busStopID The id of the BusStop to locate
    * @return a reference to the DLLNode containing the BusStop with the given id or null if not found
    */
   

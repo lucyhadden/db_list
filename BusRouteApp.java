@@ -36,9 +36,9 @@ public class BusRouteApp{
       route.activateStop("Cinema");
       
       
-      System.out.println("*".repeat(40));
+//      System.out.println("*".repeat(40));
       System.out.println("Modified Route for the " + route.getRouteId() +":\n" + route);
-      System.out.println("*".repeat(40));
+//      System.out.println("*".repeat(40));
       System.out.println("Number of seconds between the Swimming Pool and the Cemetery: " + route.secondsBetween2Stops("Swimming Pool", "Cemetery"));
       System.out.println("Number of seconds between the Museum and the Port: " + route.secondsBetween2Stops("Museum", "Port"));
    }

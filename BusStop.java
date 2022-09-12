@@ -101,9 +101,9 @@ public class BusStop{
    * Get a string representation of this bus stop
    * @return The string representation of this bus stop.
    */
-   public String toString(){
-      return "<--" + this.secsAnticlockwise + "--" + centreAlign(this.id, 20) + "--" + this.secsClockwise + "-> " + (inService ? "\u2713":"X");
-   }
+//   public String toString(){
+//      return "<--" + this.secsAnticlockwise + "--" + centreAlign(this.id, 20) + "--" + this.secsClockwise + "-> " + (inService ? "\u2713":"X");
+//   }
   
    /**
    * Aligns a given String centrally within a given number of spaces.
@@ -111,11 +111,11 @@ public class BusStop{
    @param numSpaces the number of total spaces in which the string is being aligned.
    @return the centrally aligned String.
    */
-   private String centreAlign(String s, int numSpaces){
-      if(numSpaces <= s.length()){
-         return s;
-      }
-      int gap1 = (numSpaces - s.length())/2;
-      return " ".repeat(gap1) + s + " ".repeat(numSpaces - gap1 - s.length()) ; 
-   }
+//   private String centreAlign(String s, int numSpaces){
+//      if(numSpaces <= s.length()){
+//         return s;
+//      }
+//      int gap1 = (numSpaces - s.length())/2;
+//      return " ".repeat(gap1) + s + " ".repeat(numSpaces - gap1 - s.length()) ;
+//   }
 }
