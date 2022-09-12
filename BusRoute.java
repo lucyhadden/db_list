@@ -183,8 +183,9 @@ public class BusRoute<T extends BusStop> extends CircularDoubleLinkedList<T>{
          int antiClockWise = 0;
       
          while(stopNode1 != stopNode2){
-         
-            stopTime += stopNode1.value.getClockwiseSecs();
+
+             assert stopNode1 != null;
+             stopTime += stopNode1.value.getClockwiseSecs();
 
             stopNode1 = stopNode1.next;
          }
@@ -194,6 +195,9 @@ public class BusRoute<T extends BusStop> extends CircularDoubleLinkedList<T>{
          
       }
    
+   }
+
+   public void listConnector() {
    }
   
 
